@@ -1,8 +1,3 @@
-import os
-
-os.chdir("C:\\Users\Administrator\Downloads\Compressed\genome\\ncbi_dataset\data")
-
-
 def dna_to_mrna():
     with open("genomic.fna", "r") as file:
         lines = file.readlines()
